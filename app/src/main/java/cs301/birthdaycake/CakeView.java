@@ -122,6 +122,9 @@ public class CakeView extends SurfaceView {
         //Now a candle in the center
         drawCandle(canvas, cakeLeft + cakeWidth/2 - candleWidth/2, cakeTop);
 
+
+        //New Candle
+        drawCandle(canvas, cakeLeft + 100 + cakeWidth/2 - candleWidth/2, cakeTop);
     }//onDraw
 
 }//class CakeView
